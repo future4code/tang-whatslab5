@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ContainerPai {
+  display: flex;
+  margin-right: 420px;
+  margin-left: 420px;
+  justify-content: center;
+  align-items: flex-end; 
+}
+
+.Container {
+  background-color: #e5ddd5;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-style:groove;
+  min-height: 99.2vh;
+}
+
+.CampoMsg {
+  display: flex;
+  height: 10vh;
+  align-items: flex-end;
+}
+
+.BoxMsg {
+  display: flex;
+  max-width: 100%;
+  min-width: 10%;
+  margin-left: 8px;
+  margin-right: 8px;
+  height: 100%;
+  border-radius: 5px;
+  text-align: left;
+  align-self: flex-start;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
+  word-break: break-all;
+}
+
+.nome {
+  width: 15%;
+  font-weight: bold;
+}
+
+.msg {
+  width: 100%;
+}
+.campoMsg {
+  display: flex;
+  padding: 0 10px;
+  text-align: left;
+}
+
+.inputUser {
+  width: 85px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 6px 10px;
+}
+
+.inputMsg {
+  width: 365px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 6px 10px;
+}
+
+.btnSubmit {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 6px 10px;
+}
